@@ -1,16 +1,13 @@
 {
-  "name": "test-project",
+  "name": "lerna-test-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Lerna Test Project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "lerna bootstrap"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^2.0.0-rc.5",
-    "deep-a": "^1.0.0",
-    "deep-b": "^1.0.0"
+    "lerna": "^2.0.0-rc.5"
   }
 }
